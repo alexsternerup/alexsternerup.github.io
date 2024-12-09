@@ -1,0 +1,52 @@
+body{
+    padding: 25px 50px;
+    text-align: justify;
+    font-family: "Helvetica", sans-serif;
+    color: rgba(45, 45, 45, 1);
+}
+#header{
+    margin-bottom: 25px;
+}
+#nav{ 
+display:flex;
+align-items: center;
+gap: 20px;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    padding: 4px 20px;
+}
+#nav a:hover{
+    color: blue;
+}
+#nav .nav-link-selected{
+    background-color: blue;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 100vmax;
+}
+#nav .nav-link-selected:hover{
+    background-color: yellow;
+    color: white;
+   
+}
+#about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+#about-us-main-image {
+}
+#about-us-main-image img {
+    width: 600px;
+}
+
+
+
+
+.employee-image{
+    width: 200px;
+}
+
